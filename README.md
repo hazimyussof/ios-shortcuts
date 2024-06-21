@@ -17,7 +17,7 @@
 
 When starting the shortcut, it will promt and ask you for an input in the form of a text:
 
-<img src="https://github.com/hazimyussof/ios-shortcuts/assets/56122446/1eb27082-824a-4b12-9d89-211a386e4236" width="400" />
+![demo1150](https://github.com/hazimyussof/ios-shortcuts/assets/56122446/3963a3ea-5d04-4def-800f-b373e86d275b)
 
 Specific time countdown (24-hour):
 - This will only work if you type in the full format: `00:00`
