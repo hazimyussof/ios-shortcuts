@@ -19,24 +19,27 @@ When starting the shortcut, it will promt and ask you for an input in the form o
 
 ![demo1150](https://github.com/hazimyussof/ios-shortcuts/assets/56122446/3963a3ea-5d04-4def-800f-b373e86d275b)
 
-Specific time countdown (24-hour):
+**Specific time countdown (24-hour)**:
+
 - This will only work if you type in the full format: `00:00`
 - `18:00` ✅
 - `18`, `18:`, `18:0` ❌
 
-Specific time countdown (12-hour):
+**Specific time countdown (12-hour)**:
+
 - This will only work if you type `am` or `pm` at the end of the number. It is not case-sensitive, and it doesn't matter if there are whitespaces in-between as long as `am` or `pm` is added at the end.
 - `6pm`, `6:30 PM` ✅
 
-**Note**: Specific time countdowns will only work after the current time, and before `00:00` or `12:00am` because the calculations only calculate for the `currentDate` and not for the date after.
+Specific time countdowns will only work after the current time, and before `00:00` or `12:00am` because the calculations only calculate for the `currentDate` and not for the date after.
 
-Timer countdown:
+**Timer countdown**:
+
 - The following prefixes will work:
 - Hour: `h`, `hr`, `hour`, `hours`
 - Minute: `m`, `min`, `minute`, `minutes`
 - Second: `s`, `sec`, `second`, `seconds`
 
-**Note**: it's not case-sensitive and will work with multiple combinations and sequences, example: `1h 30 minutes 59SEC`, `50s 1hour 30min`
+it's not case-sensitive and will work with multiple combinations and sequences, example: `1h 30 minutes 59SEC`, `50s 1hour 30min`. It will not work if the timer is more than `23 hours 59 minutes 59 seconds` as that's the maximum time allowed by the default iOS timer.
 
 ---
 
